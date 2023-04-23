@@ -8,13 +8,13 @@
 Console.Write("Введите число A: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
-int numberB = Convert.ToInt32(Console.ReadLine()); 
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (numberA == numberB * numberB || numberB == numberA * numberA)
+if (numberA == Math.Pow(numberB, 2) || numberB == Math.Pow(numberA, 2))
 {
-Console.Write("Да"); 
-} 
+Console.WriteLine("Yes");
+}
 else
 {
-Console.Write("Нет");
-} 
+Console.WriteLine("No");
+}

@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task13\bin\Debug\net7.0\task13.exe
+F:\Downloads\GB\C#\task13\bin\Debug\net7.0\task13.deps.json
+F:\Downloads\GB\C#\task13\bin\Debug\net7.0\task13.runtimeconfig.json
+F:\Downloads\GB\C#\task13\bin\Debug\net7.0\task13.dll
+F:\Downloads\GB\C#\task13\bin\Debug\net7.0\task13.pdb
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.AssemblyInfo.cs
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.dll
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\refint\task13.dll
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.pdb
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\task13.genruntimeconfig.cache
+F:\Downloads\GB\C#\task13\obj\Debug\net7.0\ref\task13.dll

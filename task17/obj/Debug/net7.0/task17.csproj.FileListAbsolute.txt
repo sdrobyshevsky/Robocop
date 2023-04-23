@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task17\bin\Debug\net7.0\task17.exe
+F:\Downloads\GB\C#\task17\bin\Debug\net7.0\task17.deps.json
+F:\Downloads\GB\C#\task17\bin\Debug\net7.0\task17.runtimeconfig.json
+F:\Downloads\GB\C#\task17\bin\Debug\net7.0\task17.dll
+F:\Downloads\GB\C#\task17\bin\Debug\net7.0\task17.pdb
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.AssemblyInfo.cs
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.dll
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\refint\task17.dll
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.pdb
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\task17.genruntimeconfig.cache
+F:\Downloads\GB\C#\task17\obj\Debug\net7.0\ref\task17.dll

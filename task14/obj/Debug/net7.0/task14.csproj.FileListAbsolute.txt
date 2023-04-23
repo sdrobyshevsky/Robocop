@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.AssemblyInfo.cs
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task14\bin\Debug\net7.0\task14.exe
+F:\Downloads\GB\C#\task14\bin\Debug\net7.0\task14.deps.json
+F:\Downloads\GB\C#\task14\bin\Debug\net7.0\task14.runtimeconfig.json
+F:\Downloads\GB\C#\task14\bin\Debug\net7.0\task14.dll
+F:\Downloads\GB\C#\task14\bin\Debug\net7.0\task14.pdb
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.dll
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\refint\task14.dll
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.pdb
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\task14.genruntimeconfig.cache
+F:\Downloads\GB\C#\task14\obj\Debug\net7.0\ref\task14.dll
