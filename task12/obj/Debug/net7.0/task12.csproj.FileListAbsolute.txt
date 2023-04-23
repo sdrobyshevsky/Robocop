@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task12\bin\Debug\net7.0\task12.exe
+F:\Downloads\GB\C#\task12\bin\Debug\net7.0\task12.deps.json
+F:\Downloads\GB\C#\task12\bin\Debug\net7.0\task12.runtimeconfig.json
+F:\Downloads\GB\C#\task12\bin\Debug\net7.0\task12.dll
+F:\Downloads\GB\C#\task12\bin\Debug\net7.0\task12.pdb
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.AssemblyInfo.cs
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.dll
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\refint\task12.dll
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.pdb
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\task12.genruntimeconfig.cache
+F:\Downloads\GB\C#\task12\obj\Debug\net7.0\ref\task12.dll

@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task9\bin\Debug\net7.0\task9.exe
+F:\Downloads\GB\C#\task9\bin\Debug\net7.0\task9.deps.json
+F:\Downloads\GB\C#\task9\bin\Debug\net7.0\task9.runtimeconfig.json
+F:\Downloads\GB\C#\task9\bin\Debug\net7.0\task9.dll
+F:\Downloads\GB\C#\task9\bin\Debug\net7.0\task9.pdb
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.AssemblyInfo.cs
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.dll
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\refint\task9.dll
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.pdb
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\task9.genruntimeconfig.cache
+F:\Downloads\GB\C#\task9\obj\Debug\net7.0\ref\task9.dll
