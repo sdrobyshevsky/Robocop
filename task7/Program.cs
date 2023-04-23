@@ -12,4 +12,4 @@ Console.WriteLine("Число " + number + " является: ЧЁТНЫМ");
 else
 {
 Console.WriteLine("Число " + number + " является: НЕЧЁТНЫМ");
-}
+} 

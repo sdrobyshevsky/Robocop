@@ -19,4 +19,4 @@ Console.Write($"Последняя цифра числа {number} равнa {num
 else
 {
 Console.Write("Число не трехзначное");
-}
+} 

@@ -38,4 +38,4 @@ Console.WriteLine("Воскресенье");
 else
 {
 Console.WriteLine("Это не день недели");
-}
+} 

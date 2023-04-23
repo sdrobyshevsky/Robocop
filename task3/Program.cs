@@ -9,4 +9,4 @@ while (count <= N)
 {
 Console.Write($"{count} ");
 count++; // == count = count + 1
-}
+} 
