@@ -4,13 +4,15 @@
 
 System.Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-// int sqare = 1;
-// while (sqare <= num)
-// {
-// System.Console.WriteLine(Math.Pow(sqare, 2));
-// sqare++;
-// }
-for (int i = 1; i <= num; i++)
+
+int square = 1;
+while (square <= num)
 {
-System.Console.Write(Math.Pow(i, 3) + " ");
-} 
+System.Console.WriteLine(Math.Pow(square, 3));
+square++;
+}
+
+// for (int i = 1; i <= num; i++)
+// {
+// System.Console.Write(Math.Pow(i, 3) + " ");
+// } 
