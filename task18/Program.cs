@@ -2,16 +2,36 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
+// 2 варианта решения задачи:   
 
-System.Console.WriteLine("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-// int sqare = 1;
-// while (sqare <= num)
-// {
-// System.Console.WriteLine(Math.Pow(sqare, 2));
-// sqare++;
-// }
-for (int i = 1; i <= num; i++)
+// Console.WriteLine("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите количество цифр числа: ");
+// int countnumber = Convert.ToInt32(Console.ReadLine());
+
+// if (countnumber == 3)  
+//    {
+//    Console.WriteLine("Третья цифра:" + number % 10);
+//    } 
+
+// if (countnumber > 3)  
+//    {
+//    Console.WriteLine("Третья цифра:" + (number / (int)Math.Pow(10, countnumber - 3) % 10)); 
+//    }
+
+// if (countnumber < 3)
+//    {
+//    Console.WriteLine("Третьей цифры нет");    
+//    } 
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+string number_text = Convert.ToString(number);
+if (number_text.Length > 2)
 {
-System.Console.Write(Math.Pow(i, 2) + " ");
+    Console.WriteLine($"Третья цифра числа - {number_text[2]}");
+}
+else
+{
+   Console.WriteLine("Третьей цифры нет!");
 } 
