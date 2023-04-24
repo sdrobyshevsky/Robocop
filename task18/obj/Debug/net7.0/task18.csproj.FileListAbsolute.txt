@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task18\bin\Debug\net7.0\task18.exe
+F:\Downloads\GB\C#\task18\bin\Debug\net7.0\task18.deps.json
+F:\Downloads\GB\C#\task18\bin\Debug\net7.0\task18.runtimeconfig.json
+F:\Downloads\GB\C#\task18\bin\Debug\net7.0\task18.dll
+F:\Downloads\GB\C#\task18\bin\Debug\net7.0\task18.pdb
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.AssemblyInfo.cs
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.dll
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\refint\task18.dll
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.pdb
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\task18.genruntimeconfig.cache
+F:\Downloads\GB\C#\task18\obj\Debug\net7.0\ref\task18.dll
