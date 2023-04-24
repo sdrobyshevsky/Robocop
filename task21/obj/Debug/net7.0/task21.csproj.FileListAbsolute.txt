@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task21\bin\Debug\net7.0\task21.exe
+F:\Downloads\GB\C#\task21\bin\Debug\net7.0\task21.deps.json
+F:\Downloads\GB\C#\task21\bin\Debug\net7.0\task21.runtimeconfig.json
+F:\Downloads\GB\C#\task21\bin\Debug\net7.0\task21.dll
+F:\Downloads\GB\C#\task21\bin\Debug\net7.0\task21.pdb
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.AssemblyInfo.cs
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.dll
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\refint\task21.dll
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.pdb
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\task21.genruntimeconfig.cache
+F:\Downloads\GB\C#\task21\obj\Debug\net7.0\ref\task21.dll
