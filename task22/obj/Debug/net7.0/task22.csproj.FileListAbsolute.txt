@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task22\bin\Debug\net7.0\task22.exe
+F:\Downloads\GB\C#\task22\bin\Debug\net7.0\task22.deps.json
+F:\Downloads\GB\C#\task22\bin\Debug\net7.0\task22.runtimeconfig.json
+F:\Downloads\GB\C#\task22\bin\Debug\net7.0\task22.dll
+F:\Downloads\GB\C#\task22\bin\Debug\net7.0\task22.pdb
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.AssemblyInfo.cs
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.dll
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\refint\task22.dll
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.pdb
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\task22.genruntimeconfig.cache
+F:\Downloads\GB\C#\task22\obj\Debug\net7.0\ref\task22.dll
