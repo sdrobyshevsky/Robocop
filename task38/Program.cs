@@ -1,43 +1,44 @@
 ﻿// Задача 38: Задайте массив вещественных(тип double) чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3,1; 7,2; 22,3; 2,4; 78,5] -> 76,1
 
-int size = 10;
-int[] numbers = new int[size];
+Console.WriteLine("Введите размер массива  ");
+int size = Convert.ToInt32(Console.ReadLine());
+double[] numbers = new double[size];
 FillArrayRandomNumbers(numbers);
+Console.WriteLine("массив: ");
 PrintArray(numbers);
-
-int max = numbers[0];
-int min = numbers[0];
+double min = Int32.MaxValue;
+double max = Int32.MinValue;
 
 for (int i = 0; i < numbers.Length; i++)
 {
     if (numbers[i] > max)
-    {
-        max = numbers[i];
-    }
-    else if (numbers[i] < min)
-    {
-        min = numbers[i];
-    }
+        {
+            max = numbers[i];
+        }
+    if (numbers[i] < min)
+        {
+            min = numbers[i];
+        }
 }
 
-Console.WriteLine($"Минимальное число: {min}");
-Console.WriteLine($"Максимальное число: {max}");
-Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
+Console.WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
+Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
 
-void FillArrayRandomNumbers(int[] array)
+void FillArrayRandomNumbers(double[] numbers)
 {
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(1, 555);
-    }
+    for(int i = 0; i < numbers.Length; i++)
+        {
+            numbers[i] = Convert.ToDouble(new Random().Next(100,1000)) / 100;
+        }
 }
-
-void PrintArray(int[] array)
+void PrintArray(double[] numbers)
 {
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
+    Console.Write("[ ");
+    for(int i = 0; i < numbers.Length; i++)
+        {
+            Console.Write(numbers[i] + " ");
+        }
+    Console.Write("]");
     Console.WriteLine();
 }
