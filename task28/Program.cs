@@ -42,35 +42,3 @@
 // }
 // Console.Write($"Число A в натуральной степени B равно {c}");
 // }
-
-// Третий вариант решения задачи 
- 
-int main()
-{
-    int a, b;
-    cin >> a >> b;
-  
-    const int maxsize = 500000;
-    int mas[maxsize];
-    mas[1] = 1;
- 
-    int c = 0, len = 1;
-    for(int i = 1; i <= b; ++i)
-    {
-        for(int j = 1; j <= len; ++j)
-            mas[j] = mas[j] * a + c;
-            c = mas[j] / 10;
-            mas[j] = mas[j] % 10;
- 
-        while(c > 0)
-            len++;
-            mas[len] = c % 10;
-            c /= 10;
-    }
- 
-    while(mas[len] == 0 && len > 1) len--;
- 
-    for(int i = len; i >= 1; i--) cout << mas[i];
- 
-    return 0;
-}
