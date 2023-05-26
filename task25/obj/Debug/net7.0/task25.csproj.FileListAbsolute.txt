@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task25\bin\Debug\net7.0\task25.exe
+F:\Downloads\GB\C#\task25\bin\Debug\net7.0\task25.deps.json
+F:\Downloads\GB\C#\task25\bin\Debug\net7.0\task25.runtimeconfig.json
+F:\Downloads\GB\C#\task25\bin\Debug\net7.0\task25.dll
+F:\Downloads\GB\C#\task25\bin\Debug\net7.0\task25.pdb
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.AssemblyInfo.cs
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.dll
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\refint\task25.dll
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.pdb
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\task25.genruntimeconfig.cache
+F:\Downloads\GB\C#\task25\obj\Debug\net7.0\ref\task25.dll

@@ -4,12 +4,12 @@
 
 int size = 4;
 int[] numbers = new int[size];
-FillArrayRandomNumbers(numbers);
+FillArrayRandomNumbers(numbers); 
 PrintArray(numbers);
 
 int sumNumbersEvenIndex = 0;
 
-for (int i = 1; i < numbers.Length; i += 2)
+for (int i = 0; i < numbers.Length; i += 2)
 {
     sumNumbersEvenIndex += numbers[i];
 }
@@ -25,9 +25,11 @@ void FillArrayRandomNumbers(int[] array)
 
 void PrintArray(int[] array)
 {
+    Console.Write("[ "); 
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + " ");
+        Console.Write(array[i] + ", ");
     }
+    Console.Write("]");
     Console.WriteLine();
-}
+} 
