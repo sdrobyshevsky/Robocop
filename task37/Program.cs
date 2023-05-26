@@ -14,7 +14,7 @@ for (int i = 0; i < numbers.Length; i += 2)
 {
     sumNumbersEvenIndex += numbers[i];
 }
-Console.Write(sumNumbersEvenIndex);
+Console.Write($"Сумма элементов, стоящих на нечётных позициях -> {sumNumbersEvenIndex}");
 
 void FillArrayRandomNumbers(int[] array)
 {

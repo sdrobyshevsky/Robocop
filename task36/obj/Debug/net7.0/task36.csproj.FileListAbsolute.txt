@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task36\bin\Debug\net7.0\task36.exe
+F:\Downloads\GB\C#\task36\bin\Debug\net7.0\task36.deps.json
+F:\Downloads\GB\C#\task36\bin\Debug\net7.0\task36.runtimeconfig.json
+F:\Downloads\GB\C#\task36\bin\Debug\net7.0\task36.dll
+F:\Downloads\GB\C#\task36\bin\Debug\net7.0\task36.pdb
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.AssemblyInfo.cs
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.dll
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\refint\task36.dll
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.pdb
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\task36.genruntimeconfig.cache
+F:\Downloads\GB\C#\task36\obj\Debug\net7.0\ref\task36.dll
