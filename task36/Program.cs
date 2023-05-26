@@ -23,6 +23,7 @@ void FillArrayRandomNumbers(int[] array)
         array[i] = new Random().Next(100,1000);
     }
 }
+
 void PrintArray(int[] array)
 {
     Console.Write("[ "); 
