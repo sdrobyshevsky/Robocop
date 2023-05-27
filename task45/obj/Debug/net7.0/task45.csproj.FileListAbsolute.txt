@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task45\bin\Debug\net7.0\task45.exe
+F:\Downloads\GB\C#\task45\bin\Debug\net7.0\task45.deps.json
+F:\Downloads\GB\C#\task45\bin\Debug\net7.0\task45.runtimeconfig.json
+F:\Downloads\GB\C#\task45\bin\Debug\net7.0\task45.dll
+F:\Downloads\GB\C#\task45\bin\Debug\net7.0\task45.pdb
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.AssemblyInfo.cs
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.dll
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\refint\task45.dll
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.pdb
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\task45.genruntimeconfig.cache
+F:\Downloads\GB\C#\task45\obj\Debug\net7.0\ref\task45.dll
