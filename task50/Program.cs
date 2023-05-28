@@ -28,9 +28,9 @@ System.Console.WriteLine();
 }
 
 System.Console.Write("Введите количество строк массива: ");
-int m = Convert.ToDouble(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите количество столбцов массива: ");
-int n = Convert.ToDouble(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 double[,] matrix = new double[m, n];
 
 FillMatrix(matrix);
