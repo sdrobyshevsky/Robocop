@@ -4,28 +4,61 @@
 // 1 2 3 4
 // 2 3 4 5
 
-void FillMatrixWhithRandomNumbers(int[,] matrix)
+// void FillMatrixWhithRandomNumbers(int[,] matrix)
+// {
+//     Random rnd = new Random();
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             matrix[i, j] = i + j;
+//         }
+//     }
+// }
+
+// void PrintMatrix(int[,] matrix)
+// {
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             System.Console.Write($"{matrix[i, j]} " + "\t");
+//         }
+//         System.Console.WriteLine();
+//     }
+// }
+
+// System.Console.Write("Введите количество строк массива: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// System.Console.Write("Введите количество столбцов массива: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int[,] matrix = new int[m, n];
+
+// FillMatrixWhithRandomNumbers(matrix);
+// PrintMatrix(matrix);
+
+
+void FillMatrix(int[,] matrix)
 {
-    Random rnd = new Random();
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            matrix[i, j] = i + j;
-        }
-    }
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+for (int j = 0; j < matrix.GetLength(1); j++)
+{
+matrix[i, j] = i + j;
+}
+}
 }
 
 void PrintMatrix(int[,] matrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            System.Console.Write($"{matrix[i, j]} " + "\t");
-        }
-        System.Console.WriteLine();
-    }
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+for (int j = 0; j < matrix.GetLength(1); j++)
+{
+System.Console.Write($"{matrix[i, j]} " + "\t");
+}
+System.Console.WriteLine();
+}
 }
 
 System.Console.Write("Введите количество строк массива: ");
@@ -34,5 +67,5 @@ System.Console.Write("Введите количество столбцов ма�
 int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[m, n];
 
-FillMatrixWhithRandomNumbers(matrix);
+FillMatrix(matrix);
 PrintMatrix(matrix);
