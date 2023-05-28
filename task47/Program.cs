@@ -46,7 +46,7 @@ for (int j = 0; j < matrix.GetLength(1); j++)
 {
 matrix[i, j] = i + j;
 }
-}
+} 
 }
 
 void PrintMatrix(int[,] matrix)
