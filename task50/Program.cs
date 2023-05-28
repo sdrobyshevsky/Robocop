@@ -6,9 +6,9 @@
 
 void FillMatrix(double[,] matrix)
 {
-for (int i = 0; i < matrix.GetLength(0); i++)
+for (double i = 0; i < matrix.GetLength(0); i++)
 {
-for (int j = 0; j < matrix.GetLength(1); j++)
+for (double j = 0; j < matrix.GetLength(1); j++)
 {
 matrix[i, j] = i + j;
 }
@@ -17,9 +17,9 @@ matrix[i, j] = i + j;
 
 void PrintMatrix(double[,] matrix)
 {
-for (int i = 0; i < matrix.GetLength(0); i++)
+for (double i = 0; i < matrix.GetLength(0); i++)
 {
-for (int j = 0; j < matrix.GetLength(1); j++)
+for (double j = 0; j < matrix.GetLength(1); j++)
 {
 System.Console.Write($"{matrix[i, j]} " + "\t");
 }
@@ -28,9 +28,9 @@ System.Console.WriteLine();
 }
 
 System.Console.Write("Введите количество строк массива: ");
-int m = Convert.ToInt32(Console.ReadLine());
+double m = Convert.ToDouble(Console.ReadLine());
 System.Console.Write("Введите количество столбцов массива: ");
-int n = Convert.ToInt32(Console.ReadLine());
+double n = Convert.ToDouble(Console.ReadLine());
 double[,] matrix = new double[m, n];
 
 FillMatrix(matrix);
