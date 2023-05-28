@@ -4,7 +4,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-void FillMatrix(int[,] matrix)
+void FillMatrix(double[,] matrix)
 {
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
@@ -15,7 +15,7 @@ matrix[i, j] = i + j;
 } 
 }
 
-void PrintMatrix(int[,] matrix)
+void PrintMatrix(double[,] matrix)
 {
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
@@ -28,9 +28,9 @@ System.Console.WriteLine();
 }
 
 System.Console.Write("Введите количество строк массива: ");
-int m = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToDouble(Console.ReadLine());
 System.Console.Write("Введите количество столбцов массива: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToDouble(Console.ReadLine());
 double[,] matrix = new double[m, n];
 
 FillMatrix(matrix);
