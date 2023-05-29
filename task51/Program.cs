@@ -34,10 +34,9 @@ void PrintArray(int[,] array)
         }
         Console.WriteLine();
     }
-    Console.WriteLine();
 }
 
-if (m < matrix.GetLength(0) && n <= matrix.GetLength(1)) 
+if (m < matrix.GetLength(0) && n < matrix.GetLength(1)) 
 {
 Console.WriteLine(matrix[m, n]);
 }
