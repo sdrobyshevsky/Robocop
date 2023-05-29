@@ -8,21 +8,10 @@
 System.Console.Write("Введите индекс строки: ");
 int m = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите индекс столбцов: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine()); 
 int[,] matrix = new int[m, n];
-FillArray(matrix);
-PrintArray(matrix);
 
-if (m < matrix.GetLength(0) && n < matrix.GetLength(1)) 
-{
-Console.WriteLine(matrix[m, n]);
-}
-else 
-{
-Console.WriteLine($"{m}{n} -> такого числа в массиве нет");
-}
-
-// Заполнение массива рандомными числами от 1 до 9
+// Заполнение массива рандомными числами от -100 до 99
 void FillArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -41,11 +30,20 @@ void PrintArray(int[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(array[i, j] + " ");
+            Console.Write(array[i, j] + "\t");
         }
         Console.WriteLine();
     }
     Console.WriteLine();
+}
+
+if (m < matrix.GetLength(0) && n <= matrix.GetLength(1)) 
+{
+Console.WriteLine(matrix[m, n]);
+}
+else 
+{
+Console.WriteLine($"{m}{n} -> такого числа в массиве нет");
 }
 
 // Функция ввода 
