@@ -5,30 +5,37 @@
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
-int rows = ReadInt("Введите индекс строки: ");
-int colums = ReadInt("Введите индекс столбца: ");
-int[,] numbers = new int[6, 8];
-FillArray2D(numbers);
-PrintArray2D(numbers);
+System.Console.Write("Введите индекс строки: ");
+int m = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите индекс столбцов: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[,] matrix = new int[m, n];
+FillArray(matrix);
+PrintArray(matrix);
 
-if (rows < numbers.GetLength(0) && colums < numbers.GetLength(1)) Console.WriteLine(numbers[rows, colums]);
-else Console.WriteLine($"{rows}{colums} -> такого числа в массиве нет");
-
+if (m < matrix.GetLength(0) && n < matrix.GetLength(1)) 
+{
+Console.WriteLine(matrix[m, n]);
+}
+else 
+{
+Console.WriteLine($"{m}{n} -> такого числа в массиве нет");
+}
 
 // Заполнение массива рандомными числами от 1 до 9
-void FillArray2D(int[,] array)
+void FillArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            array[i, j] = new Random().Next(-100, 100);
         }
     }
 }
 
 //  Функция вывода массива в терминал
-void PrintArray2D(int[,] array)
+void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -42,8 +49,5 @@ void PrintArray2D(int[,] array)
 }
 
 // Функция ввода 
-int ReadInt(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+FillArray(matrix);
+PrintArray(matrix);
