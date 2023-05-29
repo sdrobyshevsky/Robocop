@@ -5,39 +5,26 @@
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
-int rows = 3;
-int colums = 4;
-int[,] numbers = new int[rows, colums];
-FillArray2D(numbers);
-PrintArray2D(numbers);
-
-double[] avgNumbers = new double[numbers.GetLength(1)];
-
-for (int i = 0; i < numbers.GetLength(1); i++)
-{
-    double result = 0.0;
-    for (int j = 0; j < numbers.GetLength(0); j++)
-    {
-        result += numbers[j, i];
-    }
-    avgNumbers[i] = result / numbers.GetLength(0);
-}
-PrintArray(avgNumbers);
+System.Console.Write("Введите индекс строки: ");
+int m = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите индекс столбца: ");
+int n = Convert.ToInt32(Console.ReadLine()); 
+double[,] matrix = new double[m, n];
 
 // Заполнение массива рандомными вещественными числами
-void FillArray2D(int[,] array)
+void FillArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            array[i, j] = Convert.ToDouble(new Random().Next(-100,1000)) / 100;
         }
     }
 }
 
 //  Функция вывода двумерного массива в терминал
-void PrintArray2D(int[,] array)
+void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -47,22 +34,19 @@ void PrintArray2D(int[,] array)
         }
         Console.WriteLine();
     }
-    Console.WriteLine();
-}
+ }
 
-// Функция вывода массива в терминал 
-void PrintArray(double[] array)
+double[] avgMatrix = new double[matrix.GetLength(1)];
+
+for (int i = 0; i < matrix.GetLength(1); i++)
 {
-    for (int i = 0; i < array.Length; i++)
+    double result = 0.0;
+    for (int j = 0; j < matrix.GetLength(0); j++)
     {
-        Console.Write(array[i] + " ");
+        result += matrix[j, i];
     }
-    Console.WriteLine();
+    avgMatrix[i] = result / matrix.GetLength(0);
 }
 
-// Функция ввода 
-int ReadInt(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+
+PrintArray(avgMatrix);

@@ -5,46 +5,46 @@
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
-System.Console.Write("Введите индекс строки: ");
+System.Console.Write("Введите количество строк массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите индекс столбца: ");
-int n = Convert.ToInt32(Console.ReadLine()); 
+System.Console.Write("Введите количество столбцов массива: ");
+int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[m, n];
 
-// Заполнение массива рандомными числами от -100 до 99
-void FillArray(int[,] array)
+void FillMatrix(int[,] matrix)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            array[i, j] = new Random().Next(-100, 100);
-        }
-    }
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+for (int j = 0; j < matrix.GetLength(1); j++)
+matrix[i, j] = Convert.ToInt32(new Random().Next(-100,1000)) / 100;
+}
+} 
+
+void PrintMatrix(int[,] matrix)
+{
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+for (int j = 0; j < matrix.GetLength(1); j++)
+{
+System.Console.Write($"{matrix[i, j]} " + "\t");
+}
+System.Console.WriteLine();
+} 
 }
 
-//  Функция вывода массива в терминал
-void PrintArray(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write(array[i, j] + "\t");
-        }
-        Console.WriteLine();
-    }
-}
+System.Console.Write("Введите индекс элемента массива по строке: ");
+int i = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите индекс элемента массива по столбцу: ");
+int j = Convert.ToInt32(Console.ReadLine());
 
-if (m < matrix.GetLength(0) && n < matrix.GetLength(1)) 
-{
-Console.WriteLine(matrix[m, n]);
+if (i <= m && j <= n)  
+{  
+Console.WriteLine($"Значение Элемента массива -> {matrix [i, j]}"); 
 }
 else 
 {
-Console.WriteLine($"{m}{n} -> такого числа в массиве нет");
-}
+Console.WriteLine($"{i}{j} -> такого числа в массиве нет");
+}  
 
-// Функция ввода 
-FillArray(matrix);
-PrintArray(matrix);
+FillMatrix(matrix);
+PrintMatrix(matrix);  
