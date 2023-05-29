@@ -36,10 +36,12 @@ System.Console.Write("Введите индекс элемента массив�
 int i = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите индекс элемента массива по столбцу: ");
 int j = Convert.ToInt32(Console.ReadLine());
+i = 0; i++;
+j = 0; j++; 
 
-if (i <= m && j <= n)  
+if (i > 0 && i <= m - 1 && j > 0 && j <= n - 1)  
 {  
-Console.WriteLine($"Значение Элемента массива -> {matrix [i, j]}"); 
+Console.WriteLine($"Значение элемента массива -> {matrix[i, j]}");
 }
 else 
 {
