@@ -6,32 +6,30 @@
 
 void FillMatrix(double[,] matrix)
 {
-for (double i = 0; i < matrix.GetLength(0); i++)
+for (int i = 0; i < matrix.GetLength(0); i++)
 {
-for (double j = 0; j < matrix.GetLength(1); j++)
-{
-matrix[i, j] = i + j;
-}
+for (int j = 0; j < matrix.GetLength(1); j++)
+matrix[i, j] = Convert.ToDouble(new Random().Next(100,1000)) / 100;
 } 
-}
+} 
 
 void PrintMatrix(double[,] matrix)
 {
-for (double i = 0; i < matrix.GetLength(0); i++)
+for (int i = 0; i < matrix.GetLength(0); i++)
 {
-for (double j = 0; j < matrix.GetLength(1); j++)
+for (int j = 0; j < matrix.GetLength(1); j++)
 {
 System.Console.Write($"{matrix[i, j]} " + "\t");
 }
 System.Console.WriteLine();
-}
+} 
 }
 
 System.Console.Write("Введите количество строк массива: ");
-double m = Convert.ToDouble(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите количество столбцов массива: ");
-double n = Convert.ToDouble(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 double[,] matrix = new double[m, n];
-
 FillMatrix(matrix);
 PrintMatrix(matrix);
+
