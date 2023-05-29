@@ -7,7 +7,7 @@
 
 System.Console.Write("Введите индекс строки: ");
 int m = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите индекс столбцов: ");
+System.Console.Write("Введите индекс столбца: ");
 int n = Convert.ToInt32(Console.ReadLine()); 
 int[,] matrix = new int[m, n];
 
