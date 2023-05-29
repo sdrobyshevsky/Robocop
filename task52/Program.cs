@@ -5,14 +5,13 @@
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
-System.Console.Write("Введите индекс строки: ");
+System.Console.Write("Введите количество строк массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите индекс столбца: ");
+System.Console.Write("Введите количество столбцов массива: ");
 int n = Convert.ToInt32(Console.ReadLine()); 
 double[,] matrix = new double[m, n];
 
-// Заполнение массива рандомными вещественными числами
-void FillArray(int[,] array)
+void FillArray(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -23,8 +22,7 @@ void FillArray(int[,] array)
     }
 }
 
-//  Функция вывода двумерного массива в терминал
-void PrintArray(int[,] array)
+void PrintArray(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -40,7 +38,7 @@ double[] avgMatrix = new double[matrix.GetLength(1)];
 
 for (int i = 0; i < matrix.GetLength(1); i++)
 {
-    double result = 0.0;
+    int result = 0;
     for (int j = 0; j < matrix.GetLength(0); j++)
     {
         result += matrix[j, i];
@@ -48,5 +46,4 @@ for (int i = 0; i < matrix.GetLength(1); i++)
     avgMatrix[i] = result / matrix.GetLength(0);
 }
 
-
-PrintArray(avgMatrix);
+PrintArray(avgMatrix); 
