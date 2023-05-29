@@ -36,8 +36,6 @@ System.Console.Write("Введите индекс элемента массив�
 int i = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите индекс элемента массива по столбцу: ");
 int j = Convert.ToInt32(Console.ReadLine());
-i = 0; i++;
-j = 0; j++; 
 
 if (i > 0 && i <= m - 1 && j > 0 && j <= n - 1)  
 {  
