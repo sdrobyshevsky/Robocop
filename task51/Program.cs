@@ -37,7 +37,7 @@ int i = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите индекс элемента массива по столбцу: ");
 int j = Convert.ToInt32(Console.ReadLine());
 
-if (i >= 0 && i <= m - 1 && j >= 0 && j <= n - 1)  
+if (i > 0 && i < m && j > 0 && j < n)
 {  
 Console.WriteLine($"Значение элемента массива = {matrix[i, j]}");
 }
@@ -47,4 +47,4 @@ Console.WriteLine($"{i}{j} -> такого числа в массиве нет")
 }  
 
 FillMatrix(matrix);
-PrintMatrix(matrix);  
+PrintMatrix(matrix);

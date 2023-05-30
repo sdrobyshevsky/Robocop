@@ -33,7 +33,10 @@ void PrintArray(double[,] array)
         Console.WriteLine();
     }
  }
-
+System.Console.Write("Введите индекс элемента массива по строке: ");
+int i = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите индекс элемента массива по столбцу: ");
+int j = Convert.ToInt32(Console.ReadLine());
 double[] avgMatrix = new double[matrix.GetLength(1)];
 
 for (int i = 0; i < matrix.GetLength(1); i++)
