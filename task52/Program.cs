@@ -13,7 +13,7 @@ int[,] matrix = new int[m, n];
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
 for (int j = 0; j < matrix.GetLength(1); j++)
-matrix[i, j] = Convert.ToInt32(new Random().Next(0, 21));
+matrix[i, j] = Convert.ToInt32(new Random().Next(0, 100));
 }
 
 for (int i = 0; i < matrix.GetLength(0); i++)
@@ -30,6 +30,12 @@ for (int j = 0; j < matrix.GetLength(1); j++)
     {
         sum += matrix[i, j];
     }
-    Console.Write($"{ sum / matrix.GetLength(1)} ");
+    Console.Write($"Cреднее арифметическое значение элементов в стобце №{j+1} -> { sum / matrix.GetLength(1)} ");
 }
-Console.ReadLine();
+
+if (m <= 0 || n <= 0) 
+{
+   Console.Write($"Такого массива не существует");
+}
+
+Console.ReadLine();  
