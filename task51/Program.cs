@@ -32,43 +32,4 @@ else
 {
 Console.WriteLine($"{a}{b} -> такого числа в массиве нет");
 }
-
   
-// System.Console.Write("Введите индекс элемента массива по строке: ");
-// int i = Convert.ToInt32(Console.ReadLine());
-// System.Console.Write("Введите индекс элемента массива по столбцу: ");
-// int j = Convert.ToInt32(Console.ReadLine());
-// int[,] matrix = new int[3, 4]; 
-
-// void FillMatrix(int[,] matrix)
-// {
-// for (int i = 0; i < matrix.GetLength(0); i++)
-// {
-// for (int j = 0; j < matrix.GetLength(1); j++)
-// matrix[i, j] = Convert.ToInt32(new Random().Next(1000,10000)) / 100;
-// }
-// } 
-
-// void PrintMatrix(int[,] matrix)
-// {
-// for (int i = 0; i < matrix.GetLength(0); i++)
-// {
-// for (int j = 0; j < matrix.GetLength(1); j++)
-// {
-// System.Console.Write($"{matrix[i, j]} " + "\t");
-// }
-// System.Console.WriteLine();
-// } 
-// }
-
-// if (i >= 0 && i < matrix.GetLength(0) && j >= 0 && j < matrix.GetLength(1))
-// {  
-// Console.WriteLine($"Значение элемента массива = {matrix[i, j]}");
-// }
-// else 
-// {
-// Console.WriteLine($"{i}{j} -> такого числа в массиве нет");
-// }  
-
-// FillMatrix(matrix);
-// PrintMatrix(matrix);
