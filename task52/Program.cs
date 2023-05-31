@@ -30,7 +30,7 @@ for (int j = 0; j < matrix.GetLength(1); j++)
     {
         sum += matrix[i, j];
     }
-    Console.Write($"Cреднее арифметическое значение элементов в стобце №{j+1} -> { sum / matrix.GetLength(1)} ");
+    Console.Write($"Cреднее арифметическое значение элементов в стобце №{j+1} -> {sum / matrix.GetLength(1)} ");
 }
 
 if (m <= 0 || n <= 0) 
