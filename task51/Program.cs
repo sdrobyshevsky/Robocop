@@ -26,7 +26,7 @@ for (int i = 0; i < array.GetLength(0); i++)
  Console.WriteLine("Введите координаты");
  int a = Convert.ToInt32(Console.ReadLine());
  int b = Convert.ToInt32(Console.ReadLine());
- if (a >= 0 && a <= m && b >= 0 && b <= n) 
+ if (a >= 0 && a < m && b >= 0 && b < n) 
  Console.WriteLine($"Значение элемента массива = {array[a, b]}"); 
  else
  {
