@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task59\bin\Debug\net7.0\task59.exe
+F:\Downloads\GB\C#\task59\bin\Debug\net7.0\task59.deps.json
+F:\Downloads\GB\C#\task59\bin\Debug\net7.0\task59.runtimeconfig.json
+F:\Downloads\GB\C#\task59\bin\Debug\net7.0\task59.dll
+F:\Downloads\GB\C#\task59\bin\Debug\net7.0\task59.pdb
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.AssemblyInfo.cs
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.dll
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\refint\task59.dll
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.pdb
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\task59.genruntimeconfig.cache
+F:\Downloads\GB\C#\task59\obj\Debug\net7.0\ref\task59.dll
