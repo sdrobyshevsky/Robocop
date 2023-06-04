@@ -6,17 +6,21 @@
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int count = 1;
-NaturalToLow(number, count);
+NaturalNumbers(number, count);
 
-void NaturalToLow(int n, int count)
+void NaturalNumbers(int number, int count)
 {
-    if (count > n)
+    if (number == 0) 
+    {
+       Console.Write("Натуральных чисел нет"); 
+    } 
+    if (count > number)
     {
         return;
     }
     else
     {
-        NaturalToLow(n, count + 1);
-        Console.Write(count + " ");
+        NaturalNumbers(number, count + 1);
+        Console.Write(count + " ");        
     }
 }
