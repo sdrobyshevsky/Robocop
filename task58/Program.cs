@@ -64,7 +64,7 @@ void PrintSecondMatrix(int[,] SecondMatrix);
     }
 }
 
-void PrintResultMatrix(ResultMatrix);
+void PrintResultMatrix(int[,] ResultMatrix); 
 if (FirstMatrix.GetLength(0) != SecondMatrix.GetLength(1))
 {
     Console.WriteLine(" Нельзя перемножить ");
@@ -83,6 +83,13 @@ for (int i = 0; i < FirstMatrix.GetLength(0); i++)
     Console.WriteLine($"Произведение двух матриц = {ResultMatrix}");  
 }   
     
+// Функция ввода
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
+
 FillFirstMatrix(FirstMatrix);
 PrintFirstMatrix(FirstMatrix);
 System.Console.WriteLine();   

@@ -1,0 +1,5 @@
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.AssemblyInfo.cs
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.csproj.CoreCompileInputs.cache
