@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task63\bin\Debug\net7.0\task63.exe
+F:\Downloads\GB\C#\task63\bin\Debug\net7.0\task63.deps.json
+F:\Downloads\GB\C#\task63\bin\Debug\net7.0\task63.runtimeconfig.json
+F:\Downloads\GB\C#\task63\bin\Debug\net7.0\task63.dll
+F:\Downloads\GB\C#\task63\bin\Debug\net7.0\task63.pdb
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.AssemblyInfo.cs
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.dll
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\refint\task63.dll
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.pdb
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\task63.genruntimeconfig.cache
+F:\Downloads\GB\C#\task63\obj\Debug\net7.0\ref\task63.dll
