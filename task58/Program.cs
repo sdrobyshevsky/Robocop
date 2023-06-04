@@ -64,11 +64,11 @@ void PrintSecondMatrix(int[,] SecondMatrix);
     }
 }
 
-void FillResultMatrix(ResultMatrix);
+void PrintResultMatrix(ResultMatrix);
 if (FirstMatrix.GetLength(0) != SecondMatrix.GetLength(1))
 {
     Console.WriteLine(" Нельзя перемножить ");
-    return;
+    return; 
 }
 for (int i = 0; i < FirstMatrix.GetLength(0); i++)
 {
@@ -80,13 +80,12 @@ for (int i = 0; i < FirstMatrix.GetLength(0); i++)
             ResultMatrix[i, j] += FirstMatrix[i, k] * SecondMatrix[k, j];
         }
     }
+    Console.WriteLine($"Произведение двух матриц = {ResultMatrix}");  
 }   
-
-
-
+    
 FillFirstMatrix(FirstMatrix);
 PrintFirstMatrix(FirstMatrix);
-System.Console.WriteLine(); 
+System.Console.WriteLine();   
  
 FillSecondMatrix(SecondMatrix); 
 PrintSecondMatrix(SecondMatrix);
