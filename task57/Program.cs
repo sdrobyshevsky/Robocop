@@ -52,7 +52,7 @@ void NumberRowMinSumElements(int[,] matrix)
         }
         sumRow = 0;
     }
-    Console.WriteLine($"\n{minSumRow + 1} - строкa с наименьшей суммой элементов ");
+    Console.WriteLine($"{minSumRow + 1} - строкa с наименьшей суммой элементов ");
 }
 
 System.Console.Write("Введите количество строк массива: ");
