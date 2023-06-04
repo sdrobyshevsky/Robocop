@@ -3,3 +3,13 @@ F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.GeneratedMSBuildEditorConfig.e
 F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.AssemblyInfoInputs.cache
 F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.AssemblyInfo.cs
 F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task58\bin\Debug\net7.0\task58.exe
+F:\Downloads\GB\C#\task58\bin\Debug\net7.0\task58.deps.json
+F:\Downloads\GB\C#\task58\bin\Debug\net7.0\task58.runtimeconfig.json
+F:\Downloads\GB\C#\task58\bin\Debug\net7.0\task58.dll
+F:\Downloads\GB\C#\task58\bin\Debug\net7.0\task58.pdb
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.dll
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\refint\task58.dll
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.pdb
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\task58.genruntimeconfig.cache
+F:\Downloads\GB\C#\task58\obj\Debug\net7.0\ref\task58.dll
