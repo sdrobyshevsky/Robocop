@@ -20,8 +20,9 @@ int SumMToN(int m, int n)
         return res;
     }    
 } 
-SumFromMToN(m, n);
+
 // вызов функции "сумма чисел от M до N"
+SumFromMToN(m, n);
 void SumFromMToN(int m, int n)
 {
     Console.Write(SumMToN(m - 1, n));
