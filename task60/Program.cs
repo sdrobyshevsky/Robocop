@@ -6,24 +6,24 @@
 // 10 09 08 07
 
 int m = 4;
-int[,] matrix = new int[m, m];
-FillArraySpiral(matrix, m); 
-PrintArray(matrix);
+int[,] array = new int[m, m];
+FillArraySpiral(array, m); 
+PrintArray(array); 
 
 //  Функция заполнения массива по спирали начиная с 1
-void FillArraySpiral(int[,] array, int n)
+void FillArraySpiral(int[,] array, int m)
 {
     int i = 0, j = 0;
     int value = 1;
-    for (int e = 0; e < n * n; e++)
+    for (int e = 0; e < m * m; e++)
     {
         int k = 0;
-        do { array[i, j++] = value++; } while (++k < n - 1);
-        for (k = 0; k < n - 1; k++) array[i++, j] = value++;
-        for (k = 0; k < n - 1; k++) array[i, j--] = value++;
-        for (k = 0; k < n - 1; k++) array[i--, j] = value++;
+        do { array[i, j++] = value++; } while (++k < m - 1);
+        for (k = 0; k < m - 1; k++) array[i++, j] = value++;
+        for (k = 0; k < m - 1; k++) array[i, j--] = value++;
+        for (k = 0; k < m - 1; k++) array[i--, j] = value++;
         ++i; ++j;
-        n = n < 2 ? 0 : n - 2;
+        m = m < 2 ? 0 : m - 2;
     }
 }
 
