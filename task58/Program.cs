@@ -14,61 +14,83 @@ int[,] FirstMatrix = new int[m, n];
 int[,] SecondMatrix = new int[m, n];
 int[,] ResultMatrix = new int[m, n];
 
-FillFirstMatrix(matrix);
-PrintFirstMatrix(matrix);
-System.Console.WriteLine(); 
- 
-FillSecondMatrix(matrix);
-PrintSecondMatrix(matrix);
-System.Console.WriteLine(); 
-
-if (array.GetLength(0) != secondArray.GetLength(1))
+// Функция заполнения первого массива рандомными числами от 1 до 9
+void FillFirstMatrix(int[,] FirstMatrix)
 {
-    Console.WriteLine(" Нельзя перемножить ");
-    return;
-}
-for (int i = 0; i < array.GetLength(0); i++)
-{
-    for (int j = 0; j < secondArray.GetLength(1); j++)
+    for (int i = 0; i < FirstMatrix.GetLength(0); i++)
     {
-        resultArray[i, j] = 0;
-        for (int k = 0; k < array.GetLength(1); k++)
+        for (int j = 0; j < FirstMatrix.GetLength(1); j++)
         {
-            resultArray[i, j] += array[i, k] * secondArray[k, j];
+            FirstMatrix[i, j] = new Random().Next(1, 10);
         }
     }
 }
 
-PrintArray2D(resultArray);
-
-// Функция ввода
-int ReadInt(string message)
+// Функция заполнения второго массива рандомными числами от 1 до 9
+void FillSecondMatrix(int[,] SecondMatrix)
 {
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-// Функция заполнения массива рандомными числами от 1 до 9
-void FillArrayRandom(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < SecondMatrix.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < SecondMatrix.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            SecondMatrix[i, j] = new Random().Next(1, 10);
         }
     }
-}
+} 
 
-// Функция вывода двумерного массива в терминал 
-void PrintArray2D(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
+// Функция вывода первого двумерного массива в терминал 
+void PrintFirstMatrix(int[,] FirstMatrix); 
+{ 
+    for (int i = 0; i < FirstMatrix.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < FirstMatrix.GetLength(1); j++)
         {
-            Console.Write($"{array[i, j]} ");
+            Console.Write($"{FirstMatrix[i, j]} + \t");  
         }
         Console.WriteLine();
     }
 }
+
+// Функция вывода второго двумерного массива в терминал 
+void PrintSecondMatrix(int[,] SecondMatrix);  
+{ 
+    for (int i = 0; i < SecondMatrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < SecondMatrix.GetLength(1); j++)
+        {
+            Console.Write($"{SecondMatrix[i, j]} + \t");  
+        }
+        Console.WriteLine();
+    }
+}
+
+void FillResultMatrix(ResultMatrix);
+if (FirstMatrix.GetLength(0) != SecondMatrix.GetLength(1))
+{
+    Console.WriteLine(" Нельзя перемножить ");
+    return;
+}
+for (int i = 0; i < FirstMatrix.GetLength(0); i++)
+{
+    for (int j = 0; j < SecondMatrix.GetLength(1); j++)
+    {
+        ResultMatrix[i, j] = 0;
+        for (int k = 0; k < FirstMatrix.GetLength(1); k++)
+        { 
+            ResultMatrix[i, j] += FirstMatrix[i, k] * SecondMatrix[k, j];
+        }
+    }
+}   
+
+
+
+FillFirstMatrix(FirstMatrix);
+PrintFirstMatrix(FirstMatrix);
+System.Console.WriteLine(); 
+ 
+FillSecondMatrix(SecondMatrix); 
+PrintSecondMatrix(SecondMatrix);
+System.Console.WriteLine();  
+
+PrintResultMatrix(ResultMatrix);
+System.Console.WriteLine(); 

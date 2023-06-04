@@ -32,7 +32,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-void CountElement(int[,] matrix)
+void PrintCountElement(int[,] matrix)
 {
 
     for (int count = 0; count < 10; count++)
@@ -59,4 +59,5 @@ void CountElement(int[,] matrix)
     FillMatrixWhithRandomNumbers(matrix);
     PrintMatrix(matrix);
     System.Console.WriteLine();
-    CountElement(matrix);
+    PrintCountElement(matrix);
+    System.Console.WriteLine();
