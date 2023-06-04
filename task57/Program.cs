@@ -25,7 +25,7 @@ void PrintMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write($"{matrix[i, j]} ");
+            Console.Write($"{matrix[i, j]}"+ "\t");
         }
         Console.WriteLine();
     }
@@ -43,7 +43,8 @@ void NumberRowMinSumElements(int[,] matrix)
     }
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++) sumRow += matrix[i, j];
+        for (int j = 0; j < matrix.GetLength(1); j++) 
+        sumRow += matrix[i, j]; 
         if (sumRow < minRow)
         {
             minRow = sumRow;
@@ -51,18 +52,16 @@ void NumberRowMinSumElements(int[,] matrix)
         }
         sumRow = 0;
     }
-    Console.Write($"{minSumRow + 1} строка");
+    Console.WriteLine($"\n{minSumRow+1} - строкa с наименьшей суммой элементов ");
 }
 
 System.Console.Write("Введите количество строк массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите количество столбцов массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int[,] matrix = new int[m, n];
+int[,] matrix = new int[m, n]; 
 
 FillMatrixWhithRandomNumbers(matrix);
 PrintMatrix(matrix);
-System.Console.WriteLine();
 NumberRowMinSumElements(matrix); 
-PrintMatrix(matrix);
 System.Console.WriteLine(); 
