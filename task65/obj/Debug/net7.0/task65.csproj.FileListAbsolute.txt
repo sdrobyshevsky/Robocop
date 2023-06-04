@@ -1,0 +1,15 @@
+F:\Downloads\GB\C#\task65\bin\Debug\net7.0\task65.exe
+F:\Downloads\GB\C#\task65\bin\Debug\net7.0\task65.deps.json
+F:\Downloads\GB\C#\task65\bin\Debug\net7.0\task65.runtimeconfig.json
+F:\Downloads\GB\C#\task65\bin\Debug\net7.0\task65.dll
+F:\Downloads\GB\C#\task65\bin\Debug\net7.0\task65.pdb
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.csproj.AssemblyReference.cache
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.GeneratedMSBuildEditorConfig.editorconfig
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.AssemblyInfoInputs.cache
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.AssemblyInfo.cs
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.csproj.CoreCompileInputs.cache
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.dll
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\refint\task65.dll
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.pdb
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\task65.genruntimeconfig.cache
+F:\Downloads\GB\C#\task65\obj\Debug\net7.0\ref\task65.dll
